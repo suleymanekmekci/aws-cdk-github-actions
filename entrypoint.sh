@@ -101,7 +101,6 @@ function main(){
 	cd ${GITHUB_WORKSPACE}/${INPUT_WORKING_DIR}
 	installTypescript
 	installAwsCdk
-	installPipRequirements
 	runCdk ${INPUT_CDK_ARGS}
 }
 
